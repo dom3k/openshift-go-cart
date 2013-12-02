@@ -6,13 +6,13 @@ Versions: ["1.2"]
 Website: https://github.com/dom3k/openshift-go-cart
 Source-Url: 'git@github.com:dom3k/openshift-go-cart.git'
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: smarterclayton
+Cartridge-Vendor: ano
 Categories:
   - service
   - golang
   - web_framework
 Provides:
-  - go-1.1
+  - go-1.2
   - "go"
   - "go (version) = 1.2"
   - "go (version) = 1"
