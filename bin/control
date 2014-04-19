@@ -107,6 +107,12 @@ function tidy() {
   rm -rf $OPENSHIFT_GO_DIR/tmp/*
 }
 
+function update() {
+	echo "Aktualizacja."
+	rm -rf "metadata"
+	echo "przeszlo"
+}
+
 #
 #  main():
 #
@@ -130,6 +136,7 @@ case "$1" in
     pre-build)           pre-build   ;;
     post-deploy)         post-deploy ;;
     tidy)                tidy        ;;
+    update)		 update      ;;
     *) exit 0;
 esac
 
