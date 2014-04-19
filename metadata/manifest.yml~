@@ -5,7 +5,7 @@ Version: "1.2.1"
 Versions: ["1.2.1"]
 Source-Url: https://github.com/dom3k/openshift-go-cart.git
 Website: https://github.com/dom3k/openshift-go-cart
-Cartridge-Version: 0.0.3
+Cartridge-Version: 1.0.3
 Cartridge-Vendor: smarterclayton
 Categories:
   - service
