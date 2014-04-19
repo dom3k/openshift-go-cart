@@ -1,9 +1,9 @@
 Name: go
 Cartridge-Short-Name: GO
-Display-Name: Go 1.2
+Display-Name: Go 1.2.1
 Version: "1.2.1"
 Versions: ["1.2.1"]
-Source-Url: git@github.com:dom3k/openshift-go-cart.git
+Source-Url: https://github.com/dom3k/openshift-go-cart.git
 Website: https://github.com/dom3k/openshift-go-cart
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: smarterclayton
