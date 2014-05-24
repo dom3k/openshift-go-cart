@@ -1,11 +1,11 @@
 Name: go
 Cartridge-Short-Name: GO
-Display-Name: Go 1.2.1
-Version: "1.2.1"
-Versions: ["1.2.1"]
+Display-Name: Go 1.2.2
+Version: "1.2.2"
+Versions: ["1.2.2"]
 Source-Url: https://github.com/dom3k/openshift-go-cart.git
 Website: https://github.com/dom3k/openshift-go-cart
-Cartridge-Version: 1.0.0
+Cartridge-Version: 1.0.1
 Compatible-Versions: ['0.0.1']
 Cartridge-Vendor: smarterclayton
 
@@ -14,9 +14,9 @@ Categories:
   - golang
   - web_framework
 Provides:
-  - go-1.2.1
+  - go-1.2.2
   - "go"
-  - "go (version) = 1.2.1"
+  - "go (version) = 1.2.2"
   - "go (version) = 1"
 Scaling:
   Min: 1
@@ -43,7 +43,7 @@ Subscribes:
     Required : false
 Group-Overrides:
   - components:
-    - go-1.2.1
+    - go-1.2.2
     - web_proxy
 Endpoints:
   - Private-IP-Name:   IP
