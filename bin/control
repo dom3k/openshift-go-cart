@@ -97,6 +97,7 @@ function post-deploy() {
 }
 
 function pre-build() {
+    update()
     echo
 }
 
