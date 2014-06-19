@@ -89,6 +89,7 @@ function restart() {
 }
 
 function build() {
+    update()
     ${OPENSHIFT_GO_DIR}/bin/compile ${OPENSHIFT_REPO_DIR} ${OPENSHIFT_GO_DIR}/cache
 }
 
