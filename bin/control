@@ -104,7 +104,7 @@ function post-deploy() {
 }
 
 function pre-build() {
-    update
+   # update
     echo
 }
 
