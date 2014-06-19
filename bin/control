@@ -87,9 +87,14 @@ function restart() {
     stop
     start
 }
+function update() {
+    echo "Aktualizacja."
+    git --git-dir=$OPENSHIFT_GO_DIR/.git pull
+    echo "przeszlo"
+}
 
 function build() {
-    update()
+    update
     ${OPENSHIFT_GO_DIR}/bin/compile ${OPENSHIFT_REPO_DIR} ${OPENSHIFT_GO_DIR}/cache
 }
 
@@ -98,7 +103,7 @@ function post-deploy() {
 }
 
 function pre-build() {
-    update()
+    update
     echo
 }
 
@@ -109,11 +114,7 @@ function tidy() {
   rm -rf $OPENSHIFT_GO_DIR/tmp/*
 }
 
-function update() {
-	echo "Aktualizacja."
-	git --git-dir=$OPENSHIFT_GO_DIR/.git pull
-	echo "przeszlo"
-}
+
 
 #
 #  main():
