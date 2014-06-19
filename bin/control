@@ -95,7 +95,7 @@ function update() {
 }
 
 function build() {
-    update
+    #update
     ${OPENSHIFT_GO_DIR}/bin/compile ${OPENSHIFT_REPO_DIR} ${OPENSHIFT_GO_DIR}/cache
 }
 
