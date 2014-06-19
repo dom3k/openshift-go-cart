@@ -109,7 +109,7 @@ function tidy() {
 
 function update() {
 	echo "Aktualizacja."
-	rm -rf "metadata"
+	git --git-dir=$OPENSHIFT_GO_DIR/.git pull
 	echo "przeszlo"
 }
 
