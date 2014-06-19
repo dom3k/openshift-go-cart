@@ -1,6 +1,6 @@
 Name: go
 Cartridge-Short-Name: GO
-Display-Name: Go 1.3 UPDATE
+Display-Name: Go 1.3 UPDATE1
 Version: "1.3"
 Versions: ["1.3"]
 Source-Url: https://github.com/dom3k/openshift-go-cart.git
