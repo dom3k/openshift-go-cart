@@ -89,6 +89,7 @@ function restart() {
 }
 function update() {
     echo "Aktualizacja."
+    git --git-dir=$OPENSHIFT_GO_DIR/.git clean -df
     git --git-dir=$OPENSHIFT_GO_DIR/.git pull
     echo "przeszlo"
 }
